@@ -9,3 +9,6 @@
 * Cuando se unen las ramas a la linea prinsipal se llama merge
 * para unir las ramas con merge: git merge <con el nombre da la rama> y asi arrastra la rama a principal o a la rama en que estoy parado
 *Para borrar una rama se usa: git branch -d <nombre de la rama>
+*con git push subo los commit a github
+* con git pull bajo los archivos con cambios de github a la pc
+
