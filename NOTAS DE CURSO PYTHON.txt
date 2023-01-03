@@ -1,0 +1,4 @@
+para crear un directorio se realiza : git init
+grabar archivos en GIT para COMMITTER (SEGUIRLO) : git add <nombre de achivo>
+CON git add . (seria git add espacio . se graba o se committea todo los archivos que se hayan  modificado. no lo hace archivo por archivo como el paso anterior.
+sacar el archivo de COMMITTER: GITRM<NOMBRE DE ARCHIVO>
