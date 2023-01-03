@@ -1,4 +1,11 @@
-para crear un directorio se realiza : git init
-grabar archivos en GIT para COMMITTER (SEGUIRLO) : git add <nombre de achivo>
-CON git add . (seria git add espacio . se graba o se committea todo los archivos que se hayan  modificado. no lo hace archivo por archivo como el paso anterior.
-sacar el archivo de COMMITTER: GITRM<NOMBRE DE ARCHIVO>
+* para crear un directorio se realiza : git init
+* grabar archivos en GIT para COMMITTER (SEGUIRLO) : git add <nombre de achivo>
+* CON git add . (seria git add espacio . se graba o se committea todo los archivos que se hayan  modificado. no lo hace archivo por archivo como el paso anterior.
+* sacar el archivo de COMMITTER: GIT RM <NOMBRE DE ARCHIVO>
+* con git log me muestra quie hizo las modificaciones sobres los archivos commiteados
+* Las ramas de Git: para ver en que rama estoy:git branch
+* Para crear una rama se utiliza: git branch <Nombre de la rama>
+* si cree una rama puedo cambiartme a la rama que cree con: git checkout <nombre de la rama>
+* Cuando se unen las ramas a la linea prinsipal se llama merge
+* para unir las ramas con merge: git merge <con el nombre da la rama> y asi arrastra la rama a principal o a la rama en que estoy parado
+*Para borrar una rama se usa: git branch -d <nombre de la rama>
