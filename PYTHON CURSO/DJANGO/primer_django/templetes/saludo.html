@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-3">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hola, {{nombre}}</h1>
+    <h2>Html desde saludos</h2>
+    <h3>Nombre: {{nombre}}</h3>
+    <h3>edad: {{edad}}</h3>
+    <h3>Nacionalidad:{{nacionalidad}}</h3>
+    <h3>Trabaja?: {{trabaja}}</h3>
+    <h3>Tareas: {{lista}}</h3>
+
+    {%for tarea in tareas%}
+        {% if tarea == 'alarmas' %}
+            <h3 style= 'color:black;'>{{tarea}}</h3>  
+        {% elif tarea == 'cctv'%}
+            <h3 style="color:blue;">{{tarea}}</h3>
+        {% elif tarea == 'redes'%}
+            <h3 style= 'color:blueviolet';>{{tarea}}</h3>
+        {% elif tarea == 'control de accesos'%}
+            <h3 style= 'color:aqua';>{{tarea}}</h3>
+        {% else%}
+            <h3>{{tarea}}</h3>
+        {%endif%}
+    
+    {%endfor%}
+</body>
+</html> 
